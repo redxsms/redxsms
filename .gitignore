@@ -1,0 +1,15 @@
+*.key
+*.pem
+*.enc
+*.log
+.env
+.env.*
+session.json
+vps-test-result.txt
+upterm_authorized_keys
+.ssh/
+kajer-folder/
+data/
+node_modules/
+.DS_Store
+Thumbs.db
