@@ -8,10 +8,10 @@
 
 Ember-toned systems, encrypted workflows, and clean developer experiences.
 
-[![Session](https://img.shields.io/badge/session-6h-FFB457?style=for-the-badge)](https://github.com/redxsms/free-vps)
-[![Access](https://img.shields.io/badge/access-key--only-9BFFB2?style=for-the-badge)](https://github.com/redxsms/free-vps)
-[![Storage](https://img.shields.io/badge/storage-AES--256-FF6B81?style=for-the-badge)](https://github.com/redxsms/free-vps)
-[![Theme](https://img.shields.io/badge/theme-ember--frost-8BE9FD?style=for-the-badge)](https://redxsms.github.io/free-vps/)
+![Session](https://img.shields.io/badge/session-6h-FFB457?style=for-the-badge)
+![OS](https://img.shields.io/badge/os-windows-0078D4?style=for-the-badge)
+![Access](https://img.shields.io/badge/access-key--only-9BFFB2?style=for-the-badge)
+![Storage](https://img.shields.io/badge/storage-AES--256-FF6B81?style=for-the-badge)
 
 </div>
 
@@ -21,33 +21,33 @@ Ember-toned systems, encrypted workflows, and clean developer experiences.
   <tr>
     <td width="50%" valign="top">
       <b>Building</b><br>
-      <a href="https://github.com/redxsms/free-vps">free-vps</a> — a public showcase with Ember/Frost themes, live clock, security flow and roadmap.
+      <code>vps-data</code> — private encrypted backup, restore and key-only SSH flow.
     </td>
     <td width="50%" valign="top">
-      <b>Shipping</b><br>
-      <a href="https://redxsms.github.io/free-vps/">Live site</a> — Pages build is active and the theme preference is saved locally.
+      <b>Running</b><br>
+      Windows-based GitHub Actions sessions with six-hour limits and autosave.
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <b>Private</b><br>
-      <code>vps-data</code> — encrypted backup, restore and key-only SSH flow. No secrets are exposed publicly.
-    </td>
-    <td valign="top">
       <b>Focus</b><br>
       Termux workflows, automation, clean UI, and developer tooling that feels fast.
+    </td>
+    <td valign="top">
+      <b>Rule</b><br>
+      Short, legitimate sessions. Persistent data stays encrypted and separate.
     </td>
   </tr>
 </table>
 
-## Featured
+## Workspace
 
-| Project | What it does |
+| Piece | What it does |
 |---|---|
-| [free-vps](https://github.com/redxsms/free-vps) | Theme-aware landing page with particles, glass cards, scroll progress and terminal motion. |
-| [NEXUS site](https://redxsms.github.io/free-vps/) | Public live demo with Ember and Frost modes. |
 | `vps-data` | Private repo for encrypted snapshots, autosave, restore and SSH allowlisting. |
 | `vps-data-kit` | Local toolkit: sync, restore, daemon, cron, clone and one-line connect helper. |
+| Windows runner | GitHub-hosted `windows-latest` shell for builds, tests and short experiments. |
+| Ember profile | Animated banner, signal grid and premium visual system hosted in this repo. |
 
 ## Signal
 
@@ -77,6 +77,7 @@ Ember-toned systems, encrypted workflows, and clean developer experiences.
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![OpenSSL](https://img.shields.io/badge/OpenSSL-721F81?style=flat-square&logo=openssl&logoColor=white)
 ![Termux](https://img.shields.io/badge/Termux-00C853?style=flat-square&logo=terminal&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -98,4 +99,4 @@ The premium avatar source is available here: [avatar.png](assets/avatar.png). Gi
 
 ## Contact
 
-Open an issue on [free-vps](https://github.com/redxsms/free-vps/issues) for feedback or collaboration.
+Open an issue on [this profile repo](https://github.com/redxsms/redxsms/issues) for feedback or collaboration.
