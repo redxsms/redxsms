@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="redxsms ember profile banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0807">
+        <animate attributeName="stop-color" values="#0a0807;#1b0f0c;#0a0807" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="52%" stop-color="#160d0b">
+        <animate attributeName="stop-color" values="#160d0b;#2a160f;#160d0b" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#090706">
+        <animate attributeName="stop-color" values="#090706;#150d0a;#090706" dur="14s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb457"/>
+      <stop offset="50%" stop-color="#ff6b81"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+  </defs>
+  <rect width="1200" height="260" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="28" fill="url(#grid)" opacity=".9"/>
+  <circle cx="140" cy="70" r="110" fill="#ffb457" opacity=".26" filter="url(#blur)">
+    <animate attributeName="cx" values="120;300;120" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="70;150;70" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1040" cy="190" r="120" fill="#ff6b81" opacity=".22" filter="url(#blur)">
+    <animate attributeName="cx" values="1040;870;1040" dur="18s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="190;90;190" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="250" r="80" fill="#8be9fd" opacity=".12" filter="url(#blur)">
+    <animate attributeName="cy" values="250;150;250" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M 60 196 L 1140 196" stroke="url(#line)" stroke-width="2" opacity=".75"/>
+  <text x="60" y="122" fill="#fff7ec" font-family="Inter,Segoe UI,sans-serif" font-size="58" font-weight="800" letter-spacing="-2">REDXSMS</text>
+  <text x="63" y="168" fill="#ffb457" font-family="monospace" font-size="20" letter-spacing="4">EMBER EDITION · BUILD · SHIP · REPEAT</text>
+  <text x="1040" y="150" fill="#fff7ec" opacity=".9" font-family="monospace" font-size="24" font-weight="700">NEXUS</text>
+  <rect x="60" y="218" width="180" height="8" rx="4" fill="url(#line)" opacity=".85"/>
+</svg>

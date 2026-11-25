@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="redxsms premium banner" width="100%">
+<img src="assets/profile-banner-v2.svg" alt="redxsms ember banner" width="100%">
 
 # redxsms
 
 **Developer · Builder · Automation tinkerer**
 
-Card-free tooling, encrypted workflows, and clean developer experiences.
+Ember-toned systems, encrypted workflows, and clean developer experiences.
 
-[![Session](https://img.shields.io/badge/session-6h-47E6FF?style=for-the-badge)](https://github.com/redxsms/free-vps)
-[![Access](https://img.shields.io/badge/access-key--only-B8FF6A?style=for-the-badge)](https://github.com/redxsms/free-vps)
-[![Storage](https://img.shields.io/badge/storage-AES--256-9B6BFF?style=for-the-badge)](https://github.com/redxsms/free-vps)
-[![Card](https://img.shields.io/badge/card-0-FF6B81?style=for-the-badge)](https://github.com/redxsms/free-vps)
+[![Session](https://img.shields.io/badge/session-6h-FFB457?style=for-the-badge)](https://github.com/redxsms/free-vps)
+[![Access](https://img.shields.io/badge/access-key--only-9BFFB2?style=for-the-badge)](https://github.com/redxsms/free-vps)
+[![Storage](https://img.shields.io/badge/storage-AES--256-FF6B81?style=for-the-badge)](https://github.com/redxsms/free-vps)
+[![Theme](https://img.shields.io/badge/theme-ember--frost-8BE9FD?style=for-the-badge)](https://redxsms.github.io/free-vps/)
 
 </div>
 
@@ -21,21 +21,21 @@ Card-free tooling, encrypted workflows, and clean developer experiences.
   <tr>
     <td width="50%" valign="top">
       <b>Building</b><br>
-      <a href="https://github.com/redxsms/free-vps">free-vps</a> — a premium public showcase for a GitHub-powered 6-hour terminal.
+      <a href="https://github.com/redxsms/free-vps">free-vps</a> — a public showcase with Ember/Frost themes, live clock, security flow and roadmap.
     </td>
     <td width="50%" valign="top">
-      <b>Private</b><br>
-      <code>vps-data</code> — encrypted backup, restore and key-only SSH flow. No secrets are exposed publicly.
+      <b>Shipping</b><br>
+      <a href="https://redxsms.github.io/free-vps/">Live site</a> — Pages build is active and the theme preference is saved locally.
     </td>
   </tr>
   <tr>
     <td valign="top">
-      <b>Focus</b><br>
-      Termux workflows, automation, clean UI, and developer tooling that feels fast.
+      <b>Private</b><br>
+      <code>vps-data</code> — encrypted backup, restore and key-only SSH flow. No secrets are exposed publicly.
     </td>
     <td valign="top">
-      <b>Rule</b><br>
-      Short, legitimate sessions. Persistent data stays encrypted and separate.
+      <b>Focus</b><br>
+      Termux workflows, automation, clean UI, and developer tooling that feels fast.
     </td>
   </tr>
 </table>
@@ -44,15 +44,32 @@ Card-free tooling, encrypted workflows, and clean developer experiences.
 
 | Project | What it does |
 |---|---|
-| [free-vps](https://github.com/redxsms/free-vps) | Public landing page with animated gradients, particles, glass cards and terminal motion. |
+| [free-vps](https://github.com/redxsms/free-vps) | Theme-aware landing page with particles, glass cards, scroll progress and terminal motion. |
+| [NEXUS site](https://redxsms.github.io/free-vps/) | Public live demo with Ember and Frost modes. |
 | `vps-data` | Private repo for encrypted snapshots, autosave, restore and SSH allowlisting. |
 | `vps-data-kit` | Local toolkit: sync, restore, daemon, cron, clone and one-line connect helper. |
+
+## Signal
+
+<div align="center">
+  <img src="assets/activity-grid.svg" alt="Animated signal grid" width="100%">
+</div>
 
 ## Motion
 
 <div align="center">
   <img src="assets/terminal.gif" alt="Animated terminal banner" width="100%">
 </div>
+
+## Design system
+
+| Token | Value | Use |
+|---|---|---|
+| Ember | `#FFB457` | Primary accent and highlights |
+| Rose | `#FF6B81` | Secondary accent and status |
+| Ice | `#8BE9FD` | Tertiary accent and links |
+| Mint | `#9BFFB2` | Success and verified states |
+| Base | `#0A0807` | Dark background |
 
 ## Stack
 
@@ -74,6 +91,10 @@ bash ~/vps-data-kit/connect.sh
 ```
 
 The helper pulls the live session file, picks the correct identity key, and opens the shell without exposing a long command.
+
+## Avatar source
+
+The premium avatar source is available here: [avatar.png](assets/avatar.png). GitHub profile pictures must be uploaded from account settings; the API cannot set an avatar directly.
 
 ## Contact
 
